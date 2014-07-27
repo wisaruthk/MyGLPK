@@ -1,4 +1,4 @@
 MyGLPK
 ======
 
-gnu linear programming kit (glpk) as xcode5 library project for use on iOS
+GLPK (GNU Linear Programming Kit) as xcode5 library project for use on iOS
