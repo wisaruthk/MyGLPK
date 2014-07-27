@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905DDBAD1917179100895E78 /* amd.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDAEF1917179100895E78 /* amd.h */; };
+		905DDBAE1917179100895E78 /* amd_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF01917179100895E78 /* amd_1.c */; };
+		905DDBAF1917179100895E78 /* amd_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF11917179100895E78 /* amd_2.c */; };
+		905DDBB01917179100895E78 /* amd_aat.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF21917179100895E78 /* amd_aat.c */; };
+		905DDBB11917179100895E78 /* amd_control.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF31917179100895E78 /* amd_control.c */; };
+		905DDBB21917179100895E78 /* amd_defaults.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF41917179100895E78 /* amd_defaults.c */; };
+		905DDBB31917179100895E78 /* amd_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF51917179100895E78 /* amd_dump.c */; };
+		905DDBB41917179100895E78 /* amd_info.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF61917179100895E78 /* amd_info.c */; };
+		905DDBB51917179100895E78 /* amd_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDAF71917179100895E78 /* amd_internal.h */; };
+		905DDBB61917179100895E78 /* amd_order.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF81917179100895E78 /* amd_order.c */; };
+		905DDBB71917179100895E78 /* amd_post_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAF91917179100895E78 /* amd_post_tree.c */; };
+		905DDBB81917179100895E78 /* amd_postorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAFA1917179100895E78 /* amd_postorder.c */; };
+		905DDBB91917179100895E78 /* amd_preprocess.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAFB1917179100895E78 /* amd_preprocess.c */; };
+		905DDBBA1917179100895E78 /* amd_valid.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDAFC1917179100895E78 /* amd_valid.c */; };
+		905DDBBB1917179100895E78 /* colamd.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB001917179100895E78 /* colamd.c */; };
+		905DDBBC1917179100895E78 /* colamd.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB011917179100895E78 /* colamd.h */; };
+		905DDBBD1917179100895E78 /* glpapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB041917179100895E78 /* glpapi.h */; };
+		905DDBBE1917179100895E78 /* glpapi01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB051917179100895E78 /* glpapi01.c */; };
+		905DDBBF1917179100895E78 /* glpapi02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB061917179100895E78 /* glpapi02.c */; };
+		905DDBC01917179100895E78 /* glpapi03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB071917179100895E78 /* glpapi03.c */; };
+		905DDBC11917179100895E78 /* glpapi04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB081917179100895E78 /* glpapi04.c */; };
+		905DDBC21917179100895E78 /* glpapi05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB091917179100895E78 /* glpapi05.c */; };
+		905DDBC31917179100895E78 /* glpapi06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0A1917179100895E78 /* glpapi06.c */; };
+		905DDBC41917179100895E78 /* glpapi07.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0B1917179100895E78 /* glpapi07.c */; };
+		905DDBC51917179100895E78 /* glpapi08.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0C1917179100895E78 /* glpapi08.c */; };
+		905DDBC61917179100895E78 /* glpapi09.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0D1917179100895E78 /* glpapi09.c */; };
+		905DDBC71917179100895E78 /* glpapi10.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0E1917179100895E78 /* glpapi10.c */; };
+		905DDBC81917179100895E78 /* glpapi11.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB0F1917179100895E78 /* glpapi11.c */; };
+		905DDBC91917179100895E78 /* glpapi12.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB101917179100895E78 /* glpapi12.c */; };
+		905DDBCA1917179100895E78 /* glpapi13.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB111917179100895E78 /* glpapi13.c */; };
+		905DDBCB1917179100895E78 /* glpapi14.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB121917179100895E78 /* glpapi14.c */; };
+		905DDBCC1917179100895E78 /* glpapi15.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB131917179100895E78 /* glpapi15.c */; };
+		905DDBCD1917179100895E78 /* glpapi16.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB141917179100895E78 /* glpapi16.c */; };
+		905DDBCE1917179100895E78 /* glpapi17.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB151917179100895E78 /* glpapi17.c */; };
+		905DDBCF1917179100895E78 /* glpapi18.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB161917179100895E78 /* glpapi18.c */; };
+		905DDBD01917179100895E78 /* glpapi19.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB171917179100895E78 /* glpapi19.c */; };
+		905DDBD11917179100895E78 /* glpapi20.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB181917179100895E78 /* glpapi20.c */; };
+		905DDBD21917179100895E78 /* glpapi21.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB191917179100895E78 /* glpapi21.c */; };
+		905DDBD31917179100895E78 /* glpavl.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB1A1917179100895E78 /* glpavl.c */; };
+		905DDBD41917179100895E78 /* glpavl.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB1B1917179100895E78 /* glpavl.h */; };
+		905DDBD51917179100895E78 /* glpbfd.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB1C1917179100895E78 /* glpbfd.c */; };
+		905DDBD61917179100895E78 /* glpbfd.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB1D1917179100895E78 /* glpbfd.h */; };
+		905DDBD71917179100895E78 /* glpbfx.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB1E1917179100895E78 /* glpbfx.c */; };
+		905DDBD81917179100895E78 /* glpbfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB1F1917179100895E78 /* glpbfx.h */; };
+		905DDBD91917179100895E78 /* glpcpx.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB201917179100895E78 /* glpcpx.c */; };
+		905DDBDA1917179100895E78 /* glpdmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB211917179100895E78 /* glpdmp.c */; };
+		905DDBDB1917179100895E78 /* glpdmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB221917179100895E78 /* glpdmp.h */; };
+		905DDBDC1917179100895E78 /* glpdmx.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB231917179100895E78 /* glpdmx.c */; };
+		905DDBDD1917179100895E78 /* glpenv.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB241917179100895E78 /* glpenv.h */; };
+		905DDBDE1917179100895E78 /* glpenv01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB251917179100895E78 /* glpenv01.c */; };
+		905DDBDF1917179100895E78 /* glpenv02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB261917179100895E78 /* glpenv02.c */; };
+		905DDBE01917179100895E78 /* glpenv03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB271917179100895E78 /* glpenv03.c */; };
+		905DDBE11917179100895E78 /* glpenv04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB281917179100895E78 /* glpenv04.c */; };
+		905DDBE21917179100895E78 /* glpenv05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB291917179100895E78 /* glpenv05.c */; };
+		905DDBE31917179100895E78 /* glpenv06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB2A1917179100895E78 /* glpenv06.c */; };
+		905DDBE41917179100895E78 /* glpenv07.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB2B1917179100895E78 /* glpenv07.c */; };
+		905DDBE51917179100895E78 /* glpenv08.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB2C1917179100895E78 /* glpenv08.c */; };
+		905DDBE61917179100895E78 /* glpfhv.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB2D1917179100895E78 /* glpfhv.c */; };
+		905DDBE71917179100895E78 /* glpfhv.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB2E1917179100895E78 /* glpfhv.h */; };
+		905DDBE81917179100895E78 /* glpgmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB2F1917179100895E78 /* glpgmp.c */; };
+		905DDBE91917179100895E78 /* glpgmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB301917179100895E78 /* glpgmp.h */; };
+		905DDBEA1917179100895E78 /* glphbm.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB311917179100895E78 /* glphbm.c */; };
+		905DDBEB1917179100895E78 /* glphbm.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB321917179100895E78 /* glphbm.h */; };
+		905DDBEC1917179100895E78 /* glpini01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB331917179100895E78 /* glpini01.c */; };
+		905DDBED1917179100895E78 /* glpini02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB341917179100895E78 /* glpini02.c */; };
+		905DDBEE1917179100895E78 /* glpios.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB351917179100895E78 /* glpios.h */; };
+		905DDBEF1917179100895E78 /* glpios01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB361917179100895E78 /* glpios01.c */; };
+		905DDBF01917179100895E78 /* glpios02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB371917179100895E78 /* glpios02.c */; };
+		905DDBF11917179100895E78 /* glpios03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB381917179100895E78 /* glpios03.c */; };
+		905DDBF21917179100895E78 /* glpios04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB391917179100895E78 /* glpios04.c */; };
+		905DDBF31917179100895E78 /* glpios05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3A1917179100895E78 /* glpios05.c */; };
+		905DDBF41917179100895E78 /* glpios06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3B1917179100895E78 /* glpios06.c */; };
+		905DDBF51917179100895E78 /* glpios07.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3C1917179100895E78 /* glpios07.c */; };
+		905DDBF61917179100895E78 /* glpios08.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3D1917179100895E78 /* glpios08.c */; };
+		905DDBF71917179100895E78 /* glpios09.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3E1917179100895E78 /* glpios09.c */; };
+		905DDBF81917179100895E78 /* glpios10.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB3F1917179100895E78 /* glpios10.c */; };
+		905DDBF91917179100895E78 /* glpios11.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB401917179100895E78 /* glpios11.c */; };
+		905DDBFA1917179100895E78 /* glpios12.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB411917179100895E78 /* glpios12.c */; };
+		905DDBFB1917179100895E78 /* glpipm.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB421917179100895E78 /* glpipm.c */; };
+		905DDBFC1917179100895E78 /* glpipm.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB431917179100895E78 /* glpipm.h */; };
+		905DDBFD1917179100895E78 /* glpk.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB441917179100895E78 /* glpk.h */; };
+		905DDBFE1917179100895E78 /* glplib.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB451917179100895E78 /* glplib.h */; };
+		905DDBFF1917179100895E78 /* glplib01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB461917179100895E78 /* glplib01.c */; };
+		905DDC001917179100895E78 /* glplib02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB471917179100895E78 /* glplib02.c */; };
+		905DDC011917179100895E78 /* glplib03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB481917179100895E78 /* glplib03.c */; };
+		905DDC021917179100895E78 /* glplpf.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB491917179100895E78 /* glplpf.c */; };
+		905DDC031917179100895E78 /* glplpf.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB4A1917179100895E78 /* glplpf.h */; };
+		905DDC041917179100895E78 /* glplpx01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB4B1917179100895E78 /* glplpx01.c */; };
+		905DDC051917179100895E78 /* glplpx02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB4C1917179100895E78 /* glplpx02.c */; };
+		905DDC061917179100895E78 /* glplpx03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB4D1917179100895E78 /* glplpx03.c */; };
+		905DDC071917179100895E78 /* glpluf.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB4E1917179100895E78 /* glpluf.c */; };
+		905DDC081917179100895E78 /* glpluf.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB4F1917179100895E78 /* glpluf.h */; };
+		905DDC091917179100895E78 /* glplux.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB501917179100895E78 /* glplux.c */; };
+		905DDC0A1917179100895E78 /* glplux.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB511917179100895E78 /* glplux.h */; };
+		905DDC0B1917179100895E78 /* glpmat.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB521917179100895E78 /* glpmat.c */; };
+		905DDC0C1917179100895E78 /* glpmat.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB531917179100895E78 /* glpmat.h */; };
+		905DDC0D1917179100895E78 /* glpmpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB541917179100895E78 /* glpmpl.h */; };
+		905DDC0E1917179100895E78 /* glpmpl01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB551917179100895E78 /* glpmpl01.c */; };
+		905DDC0F1917179100895E78 /* glpmpl02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB561917179100895E78 /* glpmpl02.c */; };
+		905DDC101917179100895E78 /* glpmpl03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB571917179100895E78 /* glpmpl03.c */; };
+		905DDC111917179100895E78 /* glpmpl04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB581917179100895E78 /* glpmpl04.c */; };
+		905DDC121917179100895E78 /* glpmpl05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB591917179100895E78 /* glpmpl05.c */; };
+		905DDC131917179100895E78 /* glpmpl06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB5A1917179100895E78 /* glpmpl06.c */; };
+		905DDC141917179100895E78 /* glpmps.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB5B1917179100895E78 /* glpmps.c */; };
+		905DDC151917179100895E78 /* glpnet.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB5C1917179100895E78 /* glpnet.h */; };
+		905DDC161917179100895E78 /* glpnet01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB5D1917179100895E78 /* glpnet01.c */; };
+		905DDC171917179100895E78 /* glpnet02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB5E1917179100895E78 /* glpnet02.c */; };
+		905DDC181917179100895E78 /* glpnet03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB5F1917179100895E78 /* glpnet03.c */; };
+		905DDC191917179100895E78 /* glpnet04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB601917179100895E78 /* glpnet04.c */; };
+		905DDC1A1917179100895E78 /* glpnet05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB611917179100895E78 /* glpnet05.c */; };
+		905DDC1B1917179100895E78 /* glpnet06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB621917179100895E78 /* glpnet06.c */; };
+		905DDC1C1917179100895E78 /* glpnet07.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB631917179100895E78 /* glpnet07.c */; };
+		905DDC1D1917179100895E78 /* glpnet08.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB641917179100895E78 /* glpnet08.c */; };
+		905DDC1E1917179100895E78 /* glpnet09.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB651917179100895E78 /* glpnet09.c */; };
+		905DDC1F1917179100895E78 /* glpnpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB661917179100895E78 /* glpnpp.h */; };
+		905DDC201917179100895E78 /* glpnpp01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB671917179100895E78 /* glpnpp01.c */; };
+		905DDC211917179100895E78 /* glpnpp02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB681917179100895E78 /* glpnpp02.c */; };
+		905DDC221917179100895E78 /* glpnpp03.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB691917179100895E78 /* glpnpp03.c */; };
+		905DDC231917179100895E78 /* glpnpp04.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB6A1917179100895E78 /* glpnpp04.c */; };
+		905DDC241917179100895E78 /* glpnpp05.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB6B1917179100895E78 /* glpnpp05.c */; };
+		905DDC251917179100895E78 /* glpnpp06.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB6C1917179100895E78 /* glpnpp06.c */; };
+		905DDC261917179100895E78 /* glpqmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB6D1917179100895E78 /* glpqmd.c */; };
+		905DDC271917179100895E78 /* glpqmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB6E1917179100895E78 /* glpqmd.h */; };
+		905DDC281917179100895E78 /* glprgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB6F1917179100895E78 /* glprgr.c */; };
+		905DDC291917179100895E78 /* glprgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB701917179100895E78 /* glprgr.h */; };
+		905DDC2A1917179100895E78 /* glprlx.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB711917179100895E78 /* glprlx.c */; };
+		905DDC2B1917179100895E78 /* glprlx.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB721917179100895E78 /* glprlx.h */; };
+		905DDC2C1917179100895E78 /* glprng.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB731917179100895E78 /* glprng.h */; };
+		905DDC2D1917179100895E78 /* glprng01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB741917179100895E78 /* glprng01.c */; };
+		905DDC2E1917179100895E78 /* glprng02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB751917179100895E78 /* glprng02.c */; };
+		905DDC2F1917179100895E78 /* glpscf.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB761917179100895E78 /* glpscf.c */; };
+		905DDC301917179100895E78 /* glpscf.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB771917179100895E78 /* glpscf.h */; };
+		905DDC311917179100895E78 /* glpscl.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB781917179100895E78 /* glpscl.c */; };
+		905DDC321917179100895E78 /* glpsdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB791917179100895E78 /* glpsdf.c */; };
+		905DDC331917179100895E78 /* glpsdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB7A1917179100895E78 /* glpsdf.h */; };
+		905DDC341917179100895E78 /* glpspm.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB7B1917179100895E78 /* glpspm.c */; };
+		905DDC351917179100895E78 /* glpspm.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB7C1917179100895E78 /* glpspm.h */; };
+		905DDC361917179100895E78 /* glpspx.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB7D1917179100895E78 /* glpspx.h */; };
+		905DDC371917179100895E78 /* glpspx01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB7E1917179100895E78 /* glpspx01.c */; };
+		905DDC381917179100895E78 /* glpspx02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB7F1917179100895E78 /* glpspx02.c */; };
+		905DDC391917179100895E78 /* glpsql.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB801917179100895E78 /* glpsql.c */; };
+		905DDC3A1917179100895E78 /* glpsql.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB811917179100895E78 /* glpsql.h */; };
+		905DDC3B1917179100895E78 /* glpssx.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB821917179100895E78 /* glpssx.h */; };
+		905DDC3C1917179100895E78 /* glpssx01.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB831917179100895E78 /* glpssx01.c */; };
+		905DDC3D1917179100895E78 /* glpssx02.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB841917179100895E78 /* glpssx02.c */; };
+		905DDC3E1917179100895E78 /* glpstd.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB851917179100895E78 /* glpstd.h */; };
+		905DDC3F1917179100895E78 /* glptsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB861917179100895E78 /* glptsp.c */; };
+		905DDC401917179100895E78 /* glptsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB871917179100895E78 /* glptsp.h */; };
+		905DDC411917179100895E78 /* minisat.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB8C1917179100895E78 /* minisat.c */; };
+		905DDC421917179100895E78 /* minisat.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB8D1917179100895E78 /* minisat.h */; };
+		905DDC431917179100895E78 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB901917179100895E78 /* adler32.c */; };
+		905DDC441917179100895E78 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB911917179100895E78 /* compress.c */; };
+		905DDC451917179100895E78 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB921917179100895E78 /* crc32.c */; };
+		905DDC461917179100895E78 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB931917179100895E78 /* crc32.h */; };
+		905DDC471917179100895E78 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB941917179100895E78 /* deflate.c */; };
+		905DDC481917179100895E78 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB951917179100895E78 /* deflate.h */; };
+		905DDC491917179100895E78 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB961917179100895E78 /* gzclose.c */; };
+		905DDC4A1917179100895E78 /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB971917179100895E78 /* gzguts.h */; };
+		905DDC4B1917179100895E78 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB981917179100895E78 /* gzlib.c */; };
+		905DDC4C1917179100895E78 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB991917179100895E78 /* gzread.c */; };
+		905DDC4D1917179100895E78 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB9A1917179100895E78 /* gzwrite.c */; };
+		905DDC4E1917179100895E78 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB9B1917179100895E78 /* infback.c */; };
+		905DDC4F1917179100895E78 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB9C1917179100895E78 /* inffast.c */; };
+		905DDC501917179100895E78 /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB9D1917179100895E78 /* inffast.h */; };
+		905DDC511917179100895E78 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDB9E1917179100895E78 /* inffixed.h */; };
+		905DDC521917179100895E78 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDB9F1917179100895E78 /* inflate.c */; };
+		905DDC531917179100895E78 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBA01917179100895E78 /* inflate.h */; };
+		905DDC541917179100895E78 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDBA11917179100895E78 /* inftrees.c */; };
+		905DDC551917179100895E78 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBA21917179100895E78 /* inftrees.h */; };
+		905DDC561917179100895E78 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDBA41917179100895E78 /* trees.c */; };
+		905DDC571917179100895E78 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBA51917179100895E78 /* trees.h */; };
+		905DDC581917179100895E78 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDBA61917179100895E78 /* uncompr.c */; };
+		905DDC591917179100895E78 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBA71917179100895E78 /* zconf.h */; };
+		905DDC5A1917179100895E78 /* zio.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDBA81917179100895E78 /* zio.c */; };
+		905DDC5B1917179100895E78 /* zio.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBA91917179100895E78 /* zio.h */; };
+		905DDC5C1917179100895E78 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBAA1917179100895E78 /* zlib.h */; };
+		905DDC5D1917179100895E78 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 905DDBAB1917179100895E78 /* zutil.c */; };
+		905DDC5E1917179100895E78 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DDBAC1917179100895E78 /* zutil.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		905DDAE71917170B00895E78 /* libMyGLPK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyGLPK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		905DDAEF1917179100895E78 /* amd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amd.h; sourceTree = "<group>"; };
+		905DDAF01917179100895E78 /* amd_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_1.c; sourceTree = "<group>"; };
+		905DDAF11917179100895E78 /* amd_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_2.c; sourceTree = "<group>"; };
+		905DDAF21917179100895E78 /* amd_aat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_aat.c; sourceTree = "<group>"; };
+		905DDAF31917179100895E78 /* amd_control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_control.c; sourceTree = "<group>"; };
+		905DDAF41917179100895E78 /* amd_defaults.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_defaults.c; sourceTree = "<group>"; };
+		905DDAF51917179100895E78 /* amd_dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_dump.c; sourceTree = "<group>"; };
+		905DDAF61917179100895E78 /* amd_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_info.c; sourceTree = "<group>"; };
+		905DDAF71917179100895E78 /* amd_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amd_internal.h; sourceTree = "<group>"; };
+		905DDAF81917179100895E78 /* amd_order.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_order.c; sourceTree = "<group>"; };
+		905DDAF91917179100895E78 /* amd_post_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_post_tree.c; sourceTree = "<group>"; };
+		905DDAFA1917179100895E78 /* amd_postorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_postorder.c; sourceTree = "<group>"; };
+		905DDAFB1917179100895E78 /* amd_preprocess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_preprocess.c; sourceTree = "<group>"; };
+		905DDAFC1917179100895E78 /* amd_valid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_valid.c; sourceTree = "<group>"; };
+		905DDAFD1917179100895E78 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		905DDAFE1917179100895E78 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		905DDB001917179100895E78 /* colamd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = colamd.c; sourceTree = "<group>"; };
+		905DDB011917179100895E78 /* colamd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colamd.h; sourceTree = "<group>"; };
+		905DDB021917179100895E78 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		905DDB031917179100895E78 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		905DDB041917179100895E78 /* glpapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpapi.h; sourceTree = "<group>"; };
+		905DDB051917179100895E78 /* glpapi01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi01.c; sourceTree = "<group>"; };
+		905DDB061917179100895E78 /* glpapi02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi02.c; sourceTree = "<group>"; };
+		905DDB071917179100895E78 /* glpapi03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi03.c; sourceTree = "<group>"; };
+		905DDB081917179100895E78 /* glpapi04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi04.c; sourceTree = "<group>"; };
+		905DDB091917179100895E78 /* glpapi05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi05.c; sourceTree = "<group>"; };
+		905DDB0A1917179100895E78 /* glpapi06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi06.c; sourceTree = "<group>"; };
+		905DDB0B1917179100895E78 /* glpapi07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi07.c; sourceTree = "<group>"; };
+		905DDB0C1917179100895E78 /* glpapi08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi08.c; sourceTree = "<group>"; };
+		905DDB0D1917179100895E78 /* glpapi09.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi09.c; sourceTree = "<group>"; };
+		905DDB0E1917179100895E78 /* glpapi10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi10.c; sourceTree = "<group>"; };
+		905DDB0F1917179100895E78 /* glpapi11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi11.c; sourceTree = "<group>"; };
+		905DDB101917179100895E78 /* glpapi12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi12.c; sourceTree = "<group>"; };
+		905DDB111917179100895E78 /* glpapi13.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi13.c; sourceTree = "<group>"; };
+		905DDB121917179100895E78 /* glpapi14.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi14.c; sourceTree = "<group>"; };
+		905DDB131917179100895E78 /* glpapi15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi15.c; sourceTree = "<group>"; };
+		905DDB141917179100895E78 /* glpapi16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi16.c; sourceTree = "<group>"; };
+		905DDB151917179100895E78 /* glpapi17.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi17.c; sourceTree = "<group>"; };
+		905DDB161917179100895E78 /* glpapi18.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi18.c; sourceTree = "<group>"; };
+		905DDB171917179100895E78 /* glpapi19.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi19.c; sourceTree = "<group>"; };
+		905DDB181917179100895E78 /* glpapi20.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi20.c; sourceTree = "<group>"; };
+		905DDB191917179100895E78 /* glpapi21.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpapi21.c; sourceTree = "<group>"; };
+		905DDB1A1917179100895E78 /* glpavl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpavl.c; sourceTree = "<group>"; };
+		905DDB1B1917179100895E78 /* glpavl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpavl.h; sourceTree = "<group>"; };
+		905DDB1C1917179100895E78 /* glpbfd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpbfd.c; sourceTree = "<group>"; };
+		905DDB1D1917179100895E78 /* glpbfd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpbfd.h; sourceTree = "<group>"; };
+		905DDB1E1917179100895E78 /* glpbfx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpbfx.c; sourceTree = "<group>"; };
+		905DDB1F1917179100895E78 /* glpbfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpbfx.h; sourceTree = "<group>"; };
+		905DDB201917179100895E78 /* glpcpx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpcpx.c; sourceTree = "<group>"; };
+		905DDB211917179100895E78 /* glpdmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpdmp.c; sourceTree = "<group>"; };
+		905DDB221917179100895E78 /* glpdmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpdmp.h; sourceTree = "<group>"; };
+		905DDB231917179100895E78 /* glpdmx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpdmx.c; sourceTree = "<group>"; };
+		905DDB241917179100895E78 /* glpenv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpenv.h; sourceTree = "<group>"; };
+		905DDB251917179100895E78 /* glpenv01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv01.c; sourceTree = "<group>"; };
+		905DDB261917179100895E78 /* glpenv02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv02.c; sourceTree = "<group>"; };
+		905DDB271917179100895E78 /* glpenv03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv03.c; sourceTree = "<group>"; };
+		905DDB281917179100895E78 /* glpenv04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv04.c; sourceTree = "<group>"; };
+		905DDB291917179100895E78 /* glpenv05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv05.c; sourceTree = "<group>"; };
+		905DDB2A1917179100895E78 /* glpenv06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv06.c; sourceTree = "<group>"; };
+		905DDB2B1917179100895E78 /* glpenv07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv07.c; sourceTree = "<group>"; };
+		905DDB2C1917179100895E78 /* glpenv08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpenv08.c; sourceTree = "<group>"; };
+		905DDB2D1917179100895E78 /* glpfhv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpfhv.c; sourceTree = "<group>"; };
+		905DDB2E1917179100895E78 /* glpfhv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpfhv.h; sourceTree = "<group>"; };
+		905DDB2F1917179100895E78 /* glpgmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpgmp.c; sourceTree = "<group>"; };
+		905DDB301917179100895E78 /* glpgmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpgmp.h; sourceTree = "<group>"; };
+		905DDB311917179100895E78 /* glphbm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glphbm.c; sourceTree = "<group>"; };
+		905DDB321917179100895E78 /* glphbm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glphbm.h; sourceTree = "<group>"; };
+		905DDB331917179100895E78 /* glpini01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpini01.c; sourceTree = "<group>"; };
+		905DDB341917179100895E78 /* glpini02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpini02.c; sourceTree = "<group>"; };
+		905DDB351917179100895E78 /* glpios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpios.h; sourceTree = "<group>"; };
+		905DDB361917179100895E78 /* glpios01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios01.c; sourceTree = "<group>"; };
+		905DDB371917179100895E78 /* glpios02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios02.c; sourceTree = "<group>"; };
+		905DDB381917179100895E78 /* glpios03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios03.c; sourceTree = "<group>"; };
+		905DDB391917179100895E78 /* glpios04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios04.c; sourceTree = "<group>"; };
+		905DDB3A1917179100895E78 /* glpios05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios05.c; sourceTree = "<group>"; };
+		905DDB3B1917179100895E78 /* glpios06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios06.c; sourceTree = "<group>"; };
+		905DDB3C1917179100895E78 /* glpios07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios07.c; sourceTree = "<group>"; };
+		905DDB3D1917179100895E78 /* glpios08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios08.c; sourceTree = "<group>"; };
+		905DDB3E1917179100895E78 /* glpios09.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios09.c; sourceTree = "<group>"; };
+		905DDB3F1917179100895E78 /* glpios10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios10.c; sourceTree = "<group>"; };
+		905DDB401917179100895E78 /* glpios11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios11.c; sourceTree = "<group>"; };
+		905DDB411917179100895E78 /* glpios12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpios12.c; sourceTree = "<group>"; };
+		905DDB421917179100895E78 /* glpipm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpipm.c; sourceTree = "<group>"; };
+		905DDB431917179100895E78 /* glpipm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpipm.h; sourceTree = "<group>"; };
+		905DDB441917179100895E78 /* glpk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpk.h; sourceTree = "<group>"; };
+		905DDB451917179100895E78 /* glplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glplib.h; sourceTree = "<group>"; };
+		905DDB461917179100895E78 /* glplib01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplib01.c; sourceTree = "<group>"; };
+		905DDB471917179100895E78 /* glplib02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplib02.c; sourceTree = "<group>"; };
+		905DDB481917179100895E78 /* glplib03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplib03.c; sourceTree = "<group>"; };
+		905DDB491917179100895E78 /* glplpf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplpf.c; sourceTree = "<group>"; };
+		905DDB4A1917179100895E78 /* glplpf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glplpf.h; sourceTree = "<group>"; };
+		905DDB4B1917179100895E78 /* glplpx01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplpx01.c; sourceTree = "<group>"; };
+		905DDB4C1917179100895E78 /* glplpx02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplpx02.c; sourceTree = "<group>"; };
+		905DDB4D1917179100895E78 /* glplpx03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplpx03.c; sourceTree = "<group>"; };
+		905DDB4E1917179100895E78 /* glpluf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpluf.c; sourceTree = "<group>"; };
+		905DDB4F1917179100895E78 /* glpluf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpluf.h; sourceTree = "<group>"; };
+		905DDB501917179100895E78 /* glplux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glplux.c; sourceTree = "<group>"; };
+		905DDB511917179100895E78 /* glplux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glplux.h; sourceTree = "<group>"; };
+		905DDB521917179100895E78 /* glpmat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmat.c; sourceTree = "<group>"; };
+		905DDB531917179100895E78 /* glpmat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpmat.h; sourceTree = "<group>"; };
+		905DDB541917179100895E78 /* glpmpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpmpl.h; sourceTree = "<group>"; };
+		905DDB551917179100895E78 /* glpmpl01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl01.c; sourceTree = "<group>"; };
+		905DDB561917179100895E78 /* glpmpl02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl02.c; sourceTree = "<group>"; };
+		905DDB571917179100895E78 /* glpmpl03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl03.c; sourceTree = "<group>"; };
+		905DDB581917179100895E78 /* glpmpl04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl04.c; sourceTree = "<group>"; };
+		905DDB591917179100895E78 /* glpmpl05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl05.c; sourceTree = "<group>"; };
+		905DDB5A1917179100895E78 /* glpmpl06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmpl06.c; sourceTree = "<group>"; };
+		905DDB5B1917179100895E78 /* glpmps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpmps.c; sourceTree = "<group>"; };
+		905DDB5C1917179100895E78 /* glpnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpnet.h; sourceTree = "<group>"; };
+		905DDB5D1917179100895E78 /* glpnet01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet01.c; sourceTree = "<group>"; };
+		905DDB5E1917179100895E78 /* glpnet02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet02.c; sourceTree = "<group>"; };
+		905DDB5F1917179100895E78 /* glpnet03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet03.c; sourceTree = "<group>"; };
+		905DDB601917179100895E78 /* glpnet04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet04.c; sourceTree = "<group>"; };
+		905DDB611917179100895E78 /* glpnet05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet05.c; sourceTree = "<group>"; };
+		905DDB621917179100895E78 /* glpnet06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet06.c; sourceTree = "<group>"; };
+		905DDB631917179100895E78 /* glpnet07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet07.c; sourceTree = "<group>"; };
+		905DDB641917179100895E78 /* glpnet08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet08.c; sourceTree = "<group>"; };
+		905DDB651917179100895E78 /* glpnet09.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnet09.c; sourceTree = "<group>"; };
+		905DDB661917179100895E78 /* glpnpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpnpp.h; sourceTree = "<group>"; };
+		905DDB671917179100895E78 /* glpnpp01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp01.c; sourceTree = "<group>"; };
+		905DDB681917179100895E78 /* glpnpp02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp02.c; sourceTree = "<group>"; };
+		905DDB691917179100895E78 /* glpnpp03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp03.c; sourceTree = "<group>"; };
+		905DDB6A1917179100895E78 /* glpnpp04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp04.c; sourceTree = "<group>"; };
+		905DDB6B1917179100895E78 /* glpnpp05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp05.c; sourceTree = "<group>"; };
+		905DDB6C1917179100895E78 /* glpnpp06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpnpp06.c; sourceTree = "<group>"; };
+		905DDB6D1917179100895E78 /* glpqmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpqmd.c; sourceTree = "<group>"; };
+		905DDB6E1917179100895E78 /* glpqmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpqmd.h; sourceTree = "<group>"; };
+		905DDB6F1917179100895E78 /* glprgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glprgr.c; sourceTree = "<group>"; };
+		905DDB701917179100895E78 /* glprgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glprgr.h; sourceTree = "<group>"; };
+		905DDB711917179100895E78 /* glprlx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glprlx.c; sourceTree = "<group>"; };
+		905DDB721917179100895E78 /* glprlx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glprlx.h; sourceTree = "<group>"; };
+		905DDB731917179100895E78 /* glprng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glprng.h; sourceTree = "<group>"; };
+		905DDB741917179100895E78 /* glprng01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glprng01.c; sourceTree = "<group>"; };
+		905DDB751917179100895E78 /* glprng02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glprng02.c; sourceTree = "<group>"; };
+		905DDB761917179100895E78 /* glpscf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpscf.c; sourceTree = "<group>"; };
+		905DDB771917179100895E78 /* glpscf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpscf.h; sourceTree = "<group>"; };
+		905DDB781917179100895E78 /* glpscl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpscl.c; sourceTree = "<group>"; };
+		905DDB791917179100895E78 /* glpsdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpsdf.c; sourceTree = "<group>"; };
+		905DDB7A1917179100895E78 /* glpsdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpsdf.h; sourceTree = "<group>"; };
+		905DDB7B1917179100895E78 /* glpspm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpspm.c; sourceTree = "<group>"; };
+		905DDB7C1917179100895E78 /* glpspm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpspm.h; sourceTree = "<group>"; };
+		905DDB7D1917179100895E78 /* glpspx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpspx.h; sourceTree = "<group>"; };
+		905DDB7E1917179100895E78 /* glpspx01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpspx01.c; sourceTree = "<group>"; };
+		905DDB7F1917179100895E78 /* glpspx02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpspx02.c; sourceTree = "<group>"; };
+		905DDB801917179100895E78 /* glpsql.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpsql.c; sourceTree = "<group>"; };
+		905DDB811917179100895E78 /* glpsql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpsql.h; sourceTree = "<group>"; };
+		905DDB821917179100895E78 /* glpssx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpssx.h; sourceTree = "<group>"; };
+		905DDB831917179100895E78 /* glpssx01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpssx01.c; sourceTree = "<group>"; };
+		905DDB841917179100895E78 /* glpssx02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glpssx02.c; sourceTree = "<group>"; };
+		905DDB851917179100895E78 /* glpstd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glpstd.h; sourceTree = "<group>"; };
+		905DDB861917179100895E78 /* glptsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glptsp.c; sourceTree = "<group>"; };
+		905DDB871917179100895E78 /* glptsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glptsp.h; sourceTree = "<group>"; };
+		905DDB881917179100895E78 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		905DDB891917179100895E78 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		905DDB8B1917179100895E78 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		905DDB8C1917179100895E78 /* minisat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minisat.c; sourceTree = "<group>"; };
+		905DDB8D1917179100895E78 /* minisat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minisat.h; sourceTree = "<group>"; };
+		905DDB8E1917179100895E78 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		905DDB901917179100895E78 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		905DDB911917179100895E78 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		905DDB921917179100895E78 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		905DDB931917179100895E78 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		905DDB941917179100895E78 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		905DDB951917179100895E78 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		905DDB961917179100895E78 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		905DDB971917179100895E78 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		905DDB981917179100895E78 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		905DDB991917179100895E78 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		905DDB9A1917179100895E78 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		905DDB9B1917179100895E78 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		905DDB9C1917179100895E78 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		905DDB9D1917179100895E78 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		905DDB9E1917179100895E78 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		905DDB9F1917179100895E78 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		905DDBA01917179100895E78 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		905DDBA11917179100895E78 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		905DDBA21917179100895E78 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		905DDBA31917179100895E78 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		905DDBA41917179100895E78 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		905DDBA51917179100895E78 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		905DDBA61917179100895E78 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		905DDBA71917179100895E78 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		905DDBA81917179100895E78 /* zio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zio.c; sourceTree = "<group>"; };
+		905DDBA91917179100895E78 /* zio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zio.h; sourceTree = "<group>"; };
+		905DDBAA1917179100895E78 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		905DDBAB1917179100895E78 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		905DDBAC1917179100895E78 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905DDAE41917170B00895E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905DDADE1917170B00895E78 = {
+			isa = PBXGroup;
+			children = (
+				905DDAEE1917179100895E78 /* amd */,
+				905DDAFF1917179100895E78 /* colamd */,
+				905DDB041917179100895E78 /* glpapi.h */,
+				905DDB051917179100895E78 /* glpapi01.c */,
+				905DDB061917179100895E78 /* glpapi02.c */,
+				905DDB071917179100895E78 /* glpapi03.c */,
+				905DDB081917179100895E78 /* glpapi04.c */,
+				905DDB091917179100895E78 /* glpapi05.c */,
+				905DDB0A1917179100895E78 /* glpapi06.c */,
+				905DDB0B1917179100895E78 /* glpapi07.c */,
+				905DDB0C1917179100895E78 /* glpapi08.c */,
+				905DDB0D1917179100895E78 /* glpapi09.c */,
+				905DDB0E1917179100895E78 /* glpapi10.c */,
+				905DDB0F1917179100895E78 /* glpapi11.c */,
+				905DDB101917179100895E78 /* glpapi12.c */,
+				905DDB111917179100895E78 /* glpapi13.c */,
+				905DDB121917179100895E78 /* glpapi14.c */,
+				905DDB131917179100895E78 /* glpapi15.c */,
+				905DDB141917179100895E78 /* glpapi16.c */,
+				905DDB151917179100895E78 /* glpapi17.c */,
+				905DDB161917179100895E78 /* glpapi18.c */,
+				905DDB171917179100895E78 /* glpapi19.c */,
+				905DDB181917179100895E78 /* glpapi20.c */,
+				905DDB191917179100895E78 /* glpapi21.c */,
+				905DDB1A1917179100895E78 /* glpavl.c */,
+				905DDB1B1917179100895E78 /* glpavl.h */,
+				905DDB1C1917179100895E78 /* glpbfd.c */,
+				905DDB1D1917179100895E78 /* glpbfd.h */,
+				905DDB1E1917179100895E78 /* glpbfx.c */,
+				905DDB1F1917179100895E78 /* glpbfx.h */,
+				905DDB201917179100895E78 /* glpcpx.c */,
+				905DDB211917179100895E78 /* glpdmp.c */,
+				905DDB221917179100895E78 /* glpdmp.h */,
+				905DDB231917179100895E78 /* glpdmx.c */,
+				905DDB241917179100895E78 /* glpenv.h */,
+				905DDB251917179100895E78 /* glpenv01.c */,
+				905DDB261917179100895E78 /* glpenv02.c */,
+				905DDB271917179100895E78 /* glpenv03.c */,
+				905DDB281917179100895E78 /* glpenv04.c */,
+				905DDB291917179100895E78 /* glpenv05.c */,
+				905DDB2A1917179100895E78 /* glpenv06.c */,
+				905DDB2B1917179100895E78 /* glpenv07.c */,
+				905DDB2C1917179100895E78 /* glpenv08.c */,
+				905DDB2D1917179100895E78 /* glpfhv.c */,
+				905DDB2E1917179100895E78 /* glpfhv.h */,
+				905DDB2F1917179100895E78 /* glpgmp.c */,
+				905DDB301917179100895E78 /* glpgmp.h */,
+				905DDB311917179100895E78 /* glphbm.c */,
+				905DDB321917179100895E78 /* glphbm.h */,
+				905DDB331917179100895E78 /* glpini01.c */,
+				905DDB341917179100895E78 /* glpini02.c */,
+				905DDB351917179100895E78 /* glpios.h */,
+				905DDB361917179100895E78 /* glpios01.c */,
+				905DDB371917179100895E78 /* glpios02.c */,
+				905DDB381917179100895E78 /* glpios03.c */,
+				905DDB391917179100895E78 /* glpios04.c */,
+				905DDB3A1917179100895E78 /* glpios05.c */,
+				905DDB3B1917179100895E78 /* glpios06.c */,
+				905DDB3C1917179100895E78 /* glpios07.c */,
+				905DDB3D1917179100895E78 /* glpios08.c */,
+				905DDB3E1917179100895E78 /* glpios09.c */,
+				905DDB3F1917179100895E78 /* glpios10.c */,
+				905DDB401917179100895E78 /* glpios11.c */,
+				905DDB411917179100895E78 /* glpios12.c */,
+				905DDB421917179100895E78 /* glpipm.c */,
+				905DDB431917179100895E78 /* glpipm.h */,
+				905DDB441917179100895E78 /* glpk.h */,
+				905DDB451917179100895E78 /* glplib.h */,
+				905DDB461917179100895E78 /* glplib01.c */,
+				905DDB471917179100895E78 /* glplib02.c */,
+				905DDB481917179100895E78 /* glplib03.c */,
+				905DDB491917179100895E78 /* glplpf.c */,
+				905DDB4A1917179100895E78 /* glplpf.h */,
+				905DDB4B1917179100895E78 /* glplpx01.c */,
+				905DDB4C1917179100895E78 /* glplpx02.c */,
+				905DDB4D1917179100895E78 /* glplpx03.c */,
+				905DDB4E1917179100895E78 /* glpluf.c */,
+				905DDB4F1917179100895E78 /* glpluf.h */,
+				905DDB501917179100895E78 /* glplux.c */,
+				905DDB511917179100895E78 /* glplux.h */,
+				905DDB521917179100895E78 /* glpmat.c */,
+				905DDB531917179100895E78 /* glpmat.h */,
+				905DDB541917179100895E78 /* glpmpl.h */,
+				905DDB551917179100895E78 /* glpmpl01.c */,
+				905DDB561917179100895E78 /* glpmpl02.c */,
+				905DDB571917179100895E78 /* glpmpl03.c */,
+				905DDB581917179100895E78 /* glpmpl04.c */,
+				905DDB591917179100895E78 /* glpmpl05.c */,
+				905DDB5A1917179100895E78 /* glpmpl06.c */,
+				905DDB5B1917179100895E78 /* glpmps.c */,
+				905DDB5C1917179100895E78 /* glpnet.h */,
+				905DDB5D1917179100895E78 /* glpnet01.c */,
+				905DDB5E1917179100895E78 /* glpnet02.c */,
+				905DDB5F1917179100895E78 /* glpnet03.c */,
+				905DDB601917179100895E78 /* glpnet04.c */,
+				905DDB611917179100895E78 /* glpnet05.c */,
+				905DDB621917179100895E78 /* glpnet06.c */,
+				905DDB631917179100895E78 /* glpnet07.c */,
+				905DDB641917179100895E78 /* glpnet08.c */,
+				905DDB651917179100895E78 /* glpnet09.c */,
+				905DDB661917179100895E78 /* glpnpp.h */,
+				905DDB671917179100895E78 /* glpnpp01.c */,
+				905DDB681917179100895E78 /* glpnpp02.c */,
+				905DDB691917179100895E78 /* glpnpp03.c */,
+				905DDB6A1917179100895E78 /* glpnpp04.c */,
+				905DDB6B1917179100895E78 /* glpnpp05.c */,
+				905DDB6C1917179100895E78 /* glpnpp06.c */,
+				905DDB6D1917179100895E78 /* glpqmd.c */,
+				905DDB6E1917179100895E78 /* glpqmd.h */,
+				905DDB6F1917179100895E78 /* glprgr.c */,
+				905DDB701917179100895E78 /* glprgr.h */,
+				905DDB711917179100895E78 /* glprlx.c */,
+				905DDB721917179100895E78 /* glprlx.h */,
+				905DDB731917179100895E78 /* glprng.h */,
+				905DDB741917179100895E78 /* glprng01.c */,
+				905DDB751917179100895E78 /* glprng02.c */,
+				905DDB761917179100895E78 /* glpscf.c */,
+				905DDB771917179100895E78 /* glpscf.h */,
+				905DDB781917179100895E78 /* glpscl.c */,
+				905DDB791917179100895E78 /* glpsdf.c */,
+				905DDB7A1917179100895E78 /* glpsdf.h */,
+				905DDB7B1917179100895E78 /* glpspm.c */,
+				905DDB7C1917179100895E78 /* glpspm.h */,
+				905DDB7D1917179100895E78 /* glpspx.h */,
+				905DDB7E1917179100895E78 /* glpspx01.c */,
+				905DDB7F1917179100895E78 /* glpspx02.c */,
+				905DDB801917179100895E78 /* glpsql.c */,
+				905DDB811917179100895E78 /* glpsql.h */,
+				905DDB821917179100895E78 /* glpssx.h */,
+				905DDB831917179100895E78 /* glpssx01.c */,
+				905DDB841917179100895E78 /* glpssx02.c */,
+				905DDB851917179100895E78 /* glpstd.h */,
+				905DDB861917179100895E78 /* glptsp.c */,
+				905DDB871917179100895E78 /* glptsp.h */,
+				905DDB881917179100895E78 /* Makefile.am */,
+				905DDB891917179100895E78 /* Makefile.in */,
+				905DDB8A1917179100895E78 /* minisat */,
+				905DDB8F1917179100895E78 /* zlib */,
+				905DDAE81917170B00895E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		905DDAE81917170B00895E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905DDAE71917170B00895E78 /* libMyGLPK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905DDAEE1917179100895E78 /* amd */ = {
+			isa = PBXGroup;
+			children = (
+				905DDAEF1917179100895E78 /* amd.h */,
+				905DDAF01917179100895E78 /* amd_1.c */,
+				905DDAF11917179100895E78 /* amd_2.c */,
+				905DDAF21917179100895E78 /* amd_aat.c */,
+				905DDAF31917179100895E78 /* amd_control.c */,
+				905DDAF41917179100895E78 /* amd_defaults.c */,
+				905DDAF51917179100895E78 /* amd_dump.c */,
+				905DDAF61917179100895E78 /* amd_info.c */,
+				905DDAF71917179100895E78 /* amd_internal.h */,
+				905DDAF81917179100895E78 /* amd_order.c */,
+				905DDAF91917179100895E78 /* amd_post_tree.c */,
+				905DDAFA1917179100895E78 /* amd_postorder.c */,
+				905DDAFB1917179100895E78 /* amd_preprocess.c */,
+				905DDAFC1917179100895E78 /* amd_valid.c */,
+				905DDAFD1917179100895E78 /* COPYING */,
+				905DDAFE1917179100895E78 /* README */,
+			);
+			path = amd;
+			sourceTree = "<group>";
+		};
+		905DDAFF1917179100895E78 /* colamd */ = {
+			isa = PBXGroup;
+			children = (
+				905DDB001917179100895E78 /* colamd.c */,
+				905DDB011917179100895E78 /* colamd.h */,
+				905DDB021917179100895E78 /* COPYING */,
+				905DDB031917179100895E78 /* README */,
+			);
+			path = colamd;
+			sourceTree = "<group>";
+		};
+		905DDB8A1917179100895E78 /* minisat */ = {
+			isa = PBXGroup;
+			children = (
+				905DDB8B1917179100895E78 /* LICENSE */,
+				905DDB8C1917179100895E78 /* minisat.c */,
+				905DDB8D1917179100895E78 /* minisat.h */,
+				905DDB8E1917179100895E78 /* README */,
+			);
+			path = minisat;
+			sourceTree = "<group>";
+		};
+		905DDB8F1917179100895E78 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				905DDB901917179100895E78 /* adler32.c */,
+				905DDB911917179100895E78 /* compress.c */,
+				905DDB921917179100895E78 /* crc32.c */,
+				905DDB931917179100895E78 /* crc32.h */,
+				905DDB941917179100895E78 /* deflate.c */,
+				905DDB951917179100895E78 /* deflate.h */,
+				905DDB961917179100895E78 /* gzclose.c */,
+				905DDB971917179100895E78 /* gzguts.h */,
+				905DDB981917179100895E78 /* gzlib.c */,
+				905DDB991917179100895E78 /* gzread.c */,
+				905DDB9A1917179100895E78 /* gzwrite.c */,
+				905DDB9B1917179100895E78 /* infback.c */,
+				905DDB9C1917179100895E78 /* inffast.c */,
+				905DDB9D1917179100895E78 /* inffast.h */,
+				905DDB9E1917179100895E78 /* inffixed.h */,
+				905DDB9F1917179100895E78 /* inflate.c */,
+				905DDBA01917179100895E78 /* inflate.h */,
+				905DDBA11917179100895E78 /* inftrees.c */,
+				905DDBA21917179100895E78 /* inftrees.h */,
+				905DDBA31917179100895E78 /* README */,
+				905DDBA41917179100895E78 /* trees.c */,
+				905DDBA51917179100895E78 /* trees.h */,
+				905DDBA61917179100895E78 /* uncompr.c */,
+				905DDBA71917179100895E78 /* zconf.h */,
+				905DDBA81917179100895E78 /* zio.c */,
+				905DDBA91917179100895E78 /* zio.h */,
+				905DDBAA1917179100895E78 /* zlib.h */,
+				905DDBAB1917179100895E78 /* zutil.c */,
+				905DDBAC1917179100895E78 /* zutil.h */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		905DDAE51917170B00895E78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905DDBBC1917179100895E78 /* colamd.h in Headers */,
+				905DDC3B1917179100895E78 /* glpssx.h in Headers */,
+				905DDC551917179100895E78 /* inftrees.h in Headers */,
+				905DDC331917179100895E78 /* glpsdf.h in Headers */,
+				905DDBEE1917179100895E78 /* glpios.h in Headers */,
+				905DDBB51917179100895E78 /* amd_internal.h in Headers */,
+				905DDC271917179100895E78 /* glpqmd.h in Headers */,
+				905DDBDB1917179100895E78 /* glpdmp.h in Headers */,
+				905DDBE91917179100895E78 /* glpgmp.h in Headers */,
+				905DDBFD1917179100895E78 /* glpk.h in Headers */,
+				905DDC081917179100895E78 /* glpluf.h in Headers */,
+				905DDC501917179100895E78 /* inffast.h in Headers */,
+				905DDC351917179100895E78 /* glpspm.h in Headers */,
+				905DDBEB1917179100895E78 /* glphbm.h in Headers */,
+				905DDC301917179100895E78 /* glpscf.h in Headers */,
+				905DDBE71917179100895E78 /* glpfhv.h in Headers */,
+				905DDC031917179100895E78 /* glplpf.h in Headers */,
+				905DDBFE1917179100895E78 /* glplib.h in Headers */,
+				905DDBD41917179100895E78 /* glpavl.h in Headers */,
+				905DDC2C1917179100895E78 /* glprng.h in Headers */,
+				905DDC3A1917179100895E78 /* glpsql.h in Headers */,
+				905DDC5E1917179100895E78 /* zutil.h in Headers */,
+				905DDC1F1917179100895E78 /* glpnpp.h in Headers */,
+				905DDC421917179100895E78 /* minisat.h in Headers */,
+				905DDC5B1917179100895E78 /* zio.h in Headers */,
+				905DDBAD1917179100895E78 /* amd.h in Headers */,
+				905DDC4A1917179100895E78 /* gzguts.h in Headers */,
+				905DDC401917179100895E78 /* glptsp.h in Headers */,
+				905DDBFC1917179100895E78 /* glpipm.h in Headers */,
+				905DDBBD1917179100895E78 /* glpapi.h in Headers */,
+				905DDC0C1917179100895E78 /* glpmat.h in Headers */,
+				905DDC481917179100895E78 /* deflate.h in Headers */,
+				905DDC0A1917179100895E78 /* glplux.h in Headers */,
+				905DDC461917179100895E78 /* crc32.h in Headers */,
+				905DDC361917179100895E78 /* glpspx.h in Headers */,
+				905DDC2B1917179100895E78 /* glprlx.h in Headers */,
+				905DDBD61917179100895E78 /* glpbfd.h in Headers */,
+				905DDC3E1917179100895E78 /* glpstd.h in Headers */,
+				905DDC291917179100895E78 /* glprgr.h in Headers */,
+				905DDC5C1917179100895E78 /* zlib.h in Headers */,
+				905DDBDD1917179100895E78 /* glpenv.h in Headers */,
+				905DDC0D1917179100895E78 /* glpmpl.h in Headers */,
+				905DDC591917179100895E78 /* zconf.h in Headers */,
+				905DDC531917179100895E78 /* inflate.h in Headers */,
+				905DDC571917179100895E78 /* trees.h in Headers */,
+				905DDC151917179100895E78 /* glpnet.h in Headers */,
+				905DDBD81917179100895E78 /* glpbfx.h in Headers */,
+				905DDC511917179100895E78 /* inffixed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		905DDAE61917170B00895E78 /* MyGLPK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905DDAEB1917170B00895E78 /* Build configuration list for PBXNativeTarget "MyGLPK" */;
+			buildPhases = (
+				905DDAE31917170B00895E78 /* Sources */,
+				905DDAE41917170B00895E78 /* Frameworks */,
+				905DDAE51917170B00895E78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGLPK;
+			productName = MyGLPK;
+			productReference = 905DDAE71917170B00895E78 /* libMyGLPK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905DDADF1917170B00895E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SetSail;
+			};
+			buildConfigurationList = 905DDAE21917170B00895E78 /* Build configuration list for PBXProject "MyGLPK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 905DDADE1917170B00895E78;
+			productRefGroup = 905DDAE81917170B00895E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905DDAE61917170B00895E78 /* MyGLPK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905DDAE31917170B00895E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905DDC241917179100895E78 /* glpnpp05.c in Sources */,
+				905DDBB71917179100895E78 /* amd_post_tree.c in Sources */,
+				905DDBBE1917179100895E78 /* glpapi01.c in Sources */,
+				905DDBD01917179100895E78 /* glpapi19.c in Sources */,
+				905DDC0F1917179100895E78 /* glpmpl02.c in Sources */,
+				905DDBCE1917179100895E78 /* glpapi17.c in Sources */,
+				905DDBD71917179100895E78 /* glpbfx.c in Sources */,
+				905DDC161917179100895E78 /* glpnet01.c in Sources */,
+				905DDBD51917179100895E78 /* glpbfd.c in Sources */,
+				905DDC0B1917179100895E78 /* glpmat.c in Sources */,
+				905DDBC81917179100895E78 /* glpapi11.c in Sources */,
+				905DDBFA1917179100895E78 /* glpios12.c in Sources */,
+				905DDBB91917179100895E78 /* amd_preprocess.c in Sources */,
+				905DDBED1917179100895E78 /* glpini02.c in Sources */,
+				905DDBB31917179100895E78 /* amd_dump.c in Sources */,
+				905DDC211917179100895E78 /* glpnpp02.c in Sources */,
+				905DDBD31917179100895E78 /* glpavl.c in Sources */,
+				905DDC321917179100895E78 /* glpsdf.c in Sources */,
+				905DDC051917179100895E78 /* glplpx02.c in Sources */,
+				905DDC4C1917179100895E78 /* gzread.c in Sources */,
+				905DDC181917179100895E78 /* glpnet03.c in Sources */,
+				905DDC061917179100895E78 /* glplpx03.c in Sources */,
+				905DDBF91917179100895E78 /* glpios11.c in Sources */,
+				905DDC131917179100895E78 /* glpmpl06.c in Sources */,
+				905DDC251917179100895E78 /* glpnpp06.c in Sources */,
+				905DDBE61917179100895E78 /* glpfhv.c in Sources */,
+				905DDBC31917179100895E78 /* glpapi06.c in Sources */,
+				905DDBF81917179100895E78 /* glpios10.c in Sources */,
+				905DDBE31917179100895E78 /* glpenv06.c in Sources */,
+				905DDBF31917179100895E78 /* glpios05.c in Sources */,
+				905DDC581917179100895E78 /* uncompr.c in Sources */,
+				905DDBF21917179100895E78 /* glpios04.c in Sources */,
+				905DDC561917179100895E78 /* trees.c in Sources */,
+				905DDC1A1917179100895E78 /* glpnet05.c in Sources */,
+				905DDBD91917179100895E78 /* glpcpx.c in Sources */,
+				905DDC4F1917179100895E78 /* inffast.c in Sources */,
+				905DDC391917179100895E78 /* glpsql.c in Sources */,
+				905DDBE21917179100895E78 /* glpenv05.c in Sources */,
+				905DDC071917179100895E78 /* glpluf.c in Sources */,
+				905DDC471917179100895E78 /* deflate.c in Sources */,
+				905DDC0E1917179100895E78 /* glpmpl01.c in Sources */,
+				905DDC111917179100895E78 /* glpmpl04.c in Sources */,
+				905DDC281917179100895E78 /* glprgr.c in Sources */,
+				905DDBB61917179100895E78 /* amd_order.c in Sources */,
+				905DDBE51917179100895E78 /* glpenv08.c in Sources */,
+				905DDC381917179100895E78 /* glpspx02.c in Sources */,
+				905DDC411917179100895E78 /* minisat.c in Sources */,
+				905DDBC91917179100895E78 /* glpapi12.c in Sources */,
+				905DDBDA1917179100895E78 /* glpdmp.c in Sources */,
+				905DDC2A1917179100895E78 /* glprlx.c in Sources */,
+				905DDBE11917179100895E78 /* glpenv04.c in Sources */,
+				905DDBE81917179100895E78 /* glpgmp.c in Sources */,
+				905DDC4B1917179100895E78 /* gzlib.c in Sources */,
+				905DDC1E1917179100895E78 /* glpnet09.c in Sources */,
+				905DDBD11917179100895E78 /* glpapi20.c in Sources */,
+				905DDC371917179100895E78 /* glpspx01.c in Sources */,
+				905DDBF41917179100895E78 /* glpios06.c in Sources */,
+				905DDBF71917179100895E78 /* glpios09.c in Sources */,
+				905DDBB81917179100895E78 /* amd_postorder.c in Sources */,
+				905DDC1C1917179100895E78 /* glpnet07.c in Sources */,
+				905DDBDE1917179100895E78 /* glpenv01.c in Sources */,
+				905DDC041917179100895E78 /* glplpx01.c in Sources */,
+				905DDBC41917179100895E78 /* glpapi07.c in Sources */,
+				905DDC5A1917179100895E78 /* zio.c in Sources */,
+				905DDC5D1917179100895E78 /* zutil.c in Sources */,
+				905DDC231917179100895E78 /* glpnpp04.c in Sources */,
+				905DDBBB1917179100895E78 /* colamd.c in Sources */,
+				905DDC4D1917179100895E78 /* gzwrite.c in Sources */,
+				905DDBF01917179100895E78 /* glpios02.c in Sources */,
+				905DDBC61917179100895E78 /* glpapi09.c in Sources */,
+				905DDC2F1917179100895E78 /* glpscf.c in Sources */,
+				905DDBF51917179100895E78 /* glpios07.c in Sources */,
+				905DDC3D1917179100895E78 /* glpssx02.c in Sources */,
+				905DDBBA1917179100895E78 /* amd_valid.c in Sources */,
+				905DDC021917179100895E78 /* glplpf.c in Sources */,
+				905DDBCF1917179100895E78 /* glpapi18.c in Sources */,
+				905DDC4E1917179100895E78 /* infback.c in Sources */,
+				905DDBE01917179100895E78 /* glpenv03.c in Sources */,
+				905DDBC71917179100895E78 /* glpapi10.c in Sources */,
+				905DDC011917179100895E78 /* glplib03.c in Sources */,
+				905DDC201917179100895E78 /* glpnpp01.c in Sources */,
+				905DDC2D1917179100895E78 /* glprng01.c in Sources */,
+				905DDC091917179100895E78 /* glplux.c in Sources */,
+				905DDC521917179100895E78 /* inflate.c in Sources */,
+				905DDBEF1917179100895E78 /* glpios01.c in Sources */,
+				905DDBCB1917179100895E78 /* glpapi14.c in Sources */,
+				905DDC441917179100895E78 /* compress.c in Sources */,
+				905DDC191917179100895E78 /* glpnet04.c in Sources */,
+				905DDBB21917179100895E78 /* amd_defaults.c in Sources */,
+				905DDBFF1917179100895E78 /* glplib01.c in Sources */,
+				905DDBEA1917179100895E78 /* glphbm.c in Sources */,
+				905DDC541917179100895E78 /* inftrees.c in Sources */,
+				905DDBC11917179100895E78 /* glpapi04.c in Sources */,
+				905DDBB11917179100895E78 /* amd_control.c in Sources */,
+				905DDBCC1917179100895E78 /* glpapi15.c in Sources */,
+				905DDBB41917179100895E78 /* amd_info.c in Sources */,
+				905DDC1B1917179100895E78 /* glpnet06.c in Sources */,
+				905DDBDC1917179100895E78 /* glpdmx.c in Sources */,
+				905DDC221917179100895E78 /* glpnpp03.c in Sources */,
+				905DDC3F1917179100895E78 /* glptsp.c in Sources */,
+				905DDC1D1917179100895E78 /* glpnet08.c in Sources */,
+				905DDC491917179100895E78 /* gzclose.c in Sources */,
+				905DDC261917179100895E78 /* glpqmd.c in Sources */,
+				905DDC431917179100895E78 /* adler32.c in Sources */,
+				905DDBF61917179100895E78 /* glpios08.c in Sources */,
+				905DDC311917179100895E78 /* glpscl.c in Sources */,
+				905DDBEC1917179100895E78 /* glpini01.c in Sources */,
+				905DDC141917179100895E78 /* glpmps.c in Sources */,
+				905DDBC01917179100895E78 /* glpapi03.c in Sources */,
+				905DDBE41917179100895E78 /* glpenv07.c in Sources */,
+				905DDC121917179100895E78 /* glpmpl05.c in Sources */,
+				905DDBC51917179100895E78 /* glpapi08.c in Sources */,
+				905DDBDF1917179100895E78 /* glpenv02.c in Sources */,
+				905DDBFB1917179100895E78 /* glpipm.c in Sources */,
+				905DDBAE1917179100895E78 /* amd_1.c in Sources */,
+				905DDC3C1917179100895E78 /* glpssx01.c in Sources */,
+				905DDC2E1917179100895E78 /* glprng02.c in Sources */,
+				905DDC001917179100895E78 /* glplib02.c in Sources */,
+				905DDBBF1917179100895E78 /* glpapi02.c in Sources */,
+				905DDC101917179100895E78 /* glpmpl03.c in Sources */,
+				905DDC341917179100895E78 /* glpspm.c in Sources */,
+				905DDBCA1917179100895E78 /* glpapi13.c in Sources */,
+				905DDBD21917179100895E78 /* glpapi21.c in Sources */,
+				905DDBC21917179100895E78 /* glpapi05.c in Sources */,
+				905DDC451917179100895E78 /* crc32.c in Sources */,
+				905DDBF11917179100895E78 /* glpios03.c in Sources */,
+				905DDBAF1917179100895E78 /* amd_2.c in Sources */,
+				905DDC171917179100895E78 /* glpnet02.c in Sources */,
+				905DDBB01917179100895E78 /* amd_aat.c in Sources */,
+				905DDBCD1917179100895E78 /* glpapi16.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		905DDAE91917170B00895E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		905DDAEA1917170B00895E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		905DDAEC1917170B00895E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		905DDAED1917170B00895E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905DDAE21917170B00895E78 /* Build configuration list for PBXProject "MyGLPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905DDAE91917170B00895E78 /* Debug */,
+				905DDAEA1917170B00895E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905DDAEB1917170B00895E78 /* Build configuration list for PBXNativeTarget "MyGLPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905DDAEC1917170B00895E78 /* Debug */,
+				905DDAED1917170B00895E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 905DDADF1917170B00895E78 /* Project object */;
+}
